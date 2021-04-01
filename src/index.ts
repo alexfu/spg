@@ -15,7 +15,7 @@ class Spg extends Command {
     const familiarityQuestion = {
       type: 'list',
       name: 'familiarity',
-      message: 'How familiar are you with the codebase?',
+      message: 'How familiar are you with the code surrounding this change?',
       choices: [
         {name: 'I know nothing', value: 5},
         {name: 'I know stuff, but not everything', value: 3},
