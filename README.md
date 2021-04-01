@@ -19,7 +19,7 @@ $ npm install -g spg
 $ spg COMMAND
 running command...
 $ spg (-v|--version|version)
-spg/0.1.0 darwin-x64 node-v10.15.3
+spg/0.2.0 darwin-x64 node-v10.15.3
 $ spg --help [COMMAND]
 USAGE
   $ spg COMMAND
