@@ -41,6 +41,10 @@ class Spg extends Command {
 
     const storyPoints = this.calculateStoryPoint(size, familiarity)
 
+    if (storyPoints > 8) {
+      this.warn(`Whoa there buddy, ${storyPoints} is alot. You may want to consider breaking this story up into multiple tickets if it makes sense.`)
+    }
+
     this.log(`Your story points: ${storyPoints}`)
   }
 
