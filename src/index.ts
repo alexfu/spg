@@ -28,8 +28,9 @@ class Spg extends Command {
       name: 'size',
       message: 'How large is the change?',
       choices: [
+        {name: 'Tiny', value: 1},
         {name: 'Small', value: 2},
-        {name: 'Medium', value: 5},
+        {name: 'Medium', value: 3},
         {name: 'Large', value: 8},
       ],
     }
